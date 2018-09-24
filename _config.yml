@@ -1,0 +1,26 @@
+# Header
+menu:
+  首页: /
+  团队: /team
+  活动: /events
+  常见问题: /faq
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- public
+#- tag
+#- tagcloud
+- recent_posts
+- partners
+
+# Miscellaneous
+google_analytics: UA-40660796-2
+favicon: /favicon.png
+
