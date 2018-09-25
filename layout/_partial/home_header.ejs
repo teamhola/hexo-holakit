@@ -1,7 +1,7 @@
 <header class="hola-navbar hola-navbar-transparent hola-navbar-darkbg hola-navbar-with-hero">
   <div class="hola-container">
     <nav class="hola-navbar-main">
-      <a href="/" class="hola-navbar-brand">¡Hola!</a>
+      <a href="/" class="hola-navbar-brand"><%= config.title %></a>
     </nav>
     <input type="checkbox" class="hola-navbar-toggle" id="navbar-toggle">
     <label for="navbar-toggle" class="hola-navbar-toggle-label"></label>
@@ -16,7 +16,7 @@
   <div class="hola-container hola-hero-content">
     <% let event = _.find(site.data.events, { slug: site.data.home.home_event }) %>
     <h1 id="logo-wrap" class="logo">
-      <img class="header-logo" src="<%- url_for('static/images/holaw.svg') %>" alt="¡Hola!">
+      <img class="header-logo" src="<%- url_for('static/images/logo.svg') %>" alt="<%= config.title %>">
       <span><%= event.short_name %></span>
     </h1>
     <br>
