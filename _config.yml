@@ -6,6 +6,35 @@ menu:
   常见问题: /faq
 rss: /atom.xml
 
+# Footer
+footer_line: 本组织及其活动独立于任何第三方，包括但不限于学校、企业和有关机关部门。
+footer_links:
+  活动:
+    Conf: /coming_soon.html
+    Meetup: /coming_soon.html
+    Connect: /coming_soon.html
+  参与:
+    Holateens 公众平台: /public_platform/
+    Holalife 纪念品商店: http://teamhola.mikecrm.com/cXWWhWv
+  与我们同行:
+    成为分享者: http://teamhola.mikecrm.com/ZFzeCBs
+    加入 ¡Hola!: /team/recruit.html
+    与 ¡Hola! 合作: mailto:partners@ihola.one
+  ¡Hola! x:
+    ¡Hola! x Luogu: /2017/08/holaxluogu/
+    ¡Hola! x 合作伙伴: /coming_soon.html
+    ¡Hola! x 校园社团: /coming_soon.html
+  开放:
+    HolaKit 开源 CSS 库: https://teamhola.github.io/holakit/
+    ¡Hola! @ GitHub: https://github.com/teamhola
+    ¡Hola! 特别纪念: /coming_soon.html
+    ¡Hola! 设计: https://design.ihola.one/
+  关于:
+    ¡Hola! 价值观: /team/values.html
+    成员墙: /team/
+    常见问题: /faq/
+
+
 # Content
 excerpt_link: Read More
 fancybox: true
