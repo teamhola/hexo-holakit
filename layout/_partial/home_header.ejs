@@ -22,7 +22,7 @@
     <br>
     <p><%= event.slogan %></p>
     <p><%= date(event.date, 'MMM D') %> · <%= event.location %></p>
-    <a href="<%- url_for('/events/' + event.slug + '.html') %>" class="hola-link-cta">了解更多</a>
-    <%= event.signup_url ? `<a href="${event.signup_url}" class="hola-link-cta">立即参与</a>` : '' %>
+    <a href="<%- url_for('/events/' + event.slug + '.html') %>" class="hola-button hola-button-ghost">了解更多</a>&nbsp;&nbsp;
+    <%= event.signup_url ? `<a href="${event.signup_url}" class="hola-button hola-button-ghost">立即参与</a>` : '' %>
   </div>
 </div>
