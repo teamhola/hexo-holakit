@@ -1,7 +1,7 @@
 <div class="hola-container hola-layout-container hola-layout-container-sidebar-right">
   <section class="hola-layout-main hola-card-stack">
     <div class="hola-card">
-      <h2 class="hola-card-title">¡Hola! 团队</h2>
+      <h2 class="hola-card-title"><%- config.title %> 团队</h2>
       <div class="hola-columns hola-columns-ruled">
         <% site.data[page.data].forEach(function(member, i){ %>
             <%- partial('_partial/member-item', {member}) %>
