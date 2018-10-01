@@ -1,0 +1,16 @@
+<div class="hola-container hola-layout-container hola-layout-container-sidebar-right">
+  <section class="hola-layout-main hola-card-stack">
+    <div class="hola-card">
+      <h2 class="hola-card-title"><%- config.title %> 合作伙伴及赞助商</h2>
+      <div style="text-align: center;">
+        <% site.data.partners.forEach(function(partner, i){ %>
+          <a href="<%- partner.url %>"><img src="<%- url_for(partner.img) %>" alt="<%- partner.name %>" style="width: 200px;"></a>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+  <% } %>
+  <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
+    <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+  <% } %>
+</div>
