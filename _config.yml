@@ -34,6 +34,13 @@ footer_links:
     成员墙: /team/
     常见问题: /faq/
 
+# FAQ
+
+faq_links:
+  常规问题: /faq/
+  参与 ¡Hola!: /faq/participating.html
+  好奇心: /faq/curiosity.html
+  联系我们: /faq/contact.html
 
 # Content
 excerpt_link: Read More
